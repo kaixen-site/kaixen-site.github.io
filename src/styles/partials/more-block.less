@@ -1,0 +1,38 @@
+.more-block {
+
+  .title-block {
+    background-image: url("../images/more-ing-bg.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+    h2 {
+      margin:7rem auto;
+      color: @white;
+      font-size:3.6rem;
+    }
+  }
+}
+
+.more-element {
+  padding-top:5rem;
+  padding-bottom:10rem;
+  background: @gray-bg;
+  background-position: center center;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+  a {
+    text-decoration: none;
+    .more-info {
+      overflow: hidden;
+      p {
+        min-height:6rem;
+        font-size:2rem;
+        color: @black;
+        transition: 0.5s all;
+        &:hover {
+          color: @white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

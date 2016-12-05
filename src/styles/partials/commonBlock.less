@@ -1,0 +1,26 @@
+.CommonBlock {
+  padding: 1rem 0;
+  background-image: url("../images/diod-bg-1.png");
+  background-size: auto 100%;
+  background-position: center top;
+  &.CommonBlock_more {
+    background-image: url("../images/kseon-bg-1.png");
+  }
+  .CommonBlock-title {
+    font-size: 3.6rem;
+    color: white;
+  }
+  .CommonBlock-row {
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 0;
+      margin: 0 -4px;
+      height: 188px;
+      vertical-align: middle;
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+}
