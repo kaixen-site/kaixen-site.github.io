@@ -7020,6 +7020,8 @@ body {
 }
 .ProductScale .ProductScale-num {
   font-size: 3rem;
+}
+.ProductScale .ProductScale-num.Product-cust {
   margin-right: 4rem;
   margin-left: -3rem;
 }
